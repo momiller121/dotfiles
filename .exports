@@ -33,6 +33,3 @@ export MANPAGER='less -X';
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
 
-# npm global
-npm config set prefix '~/.npm-global'
-export PATH=~/.npm-global/bin:$PATH
